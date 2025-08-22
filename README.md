@@ -6,7 +6,6 @@ This repository presents a machine learning (ML) framework developed to predict 
 ## 📚 Background
 Cervical lymph node dissection in ESCC remains controversial due to its associated risks and uncertain survival benefits. Traditional imaging modalities like PET/CT are costly and often ineffective for small nodes. Ultrasound offers a non-invasive, accessible alternative, and when combined with ML, can significantly enhance diagnostic accuracy.
 
-
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 
@@ -16,10 +15,12 @@ Before you begin, ensure you have the following installed:
 
 You can install the required libraries using the following command:
 
+```bash
 pip install pandas numpy scikit-learn matplotlib
 pip install xgboost
 pip install lightgbm
 pip install joblib
+```
 
 ## Usage
 
