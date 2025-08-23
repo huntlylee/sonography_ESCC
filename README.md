@@ -1,26 +1,33 @@
 # Risk Prediction for Cervical Lymph Node Metastasis in Esophageal Cancer
 
-## 🧠 Project Overview
-This repository presents a machine learning (ML) framework developed to assess the risk of cervical lymph node metastasis in patients with esophageal squamous cell carcinoma (ESCC) using preoperative ultrasound and clinical data. The model aims to support personalized treatment planning and reduce unnecessary lymph node dissections. 
+## 📌 Overview
+This repository presents a machine learning (ML) framework developed to assess the risk of cervical lymph node metastasis in patients with **esophageal squamous cell carcinoma (ESCC)** using preoperative ultrasound and clinical information. The model aims to support personalized treatment planning and reduce unnecessary lymph node dissections. 
 
-![Figure 1](https://github.com/user-attachments/assets/d2fbf119-86b4-4fa3-a05c-4643e66edfbb)
+![Figure 1](https://github.com/huntlylee/sonography_ESCC/blob/main/Figure%201.jpg)
 
-## 📚 Background
+## 🧬 Background
 Cervical lymph node dissection in ESCC remains controversial due to its associated risks and uncertain survival benefits. Traditional imaging modalities like PET/CT are costly and often ineffective for occult metastasis. Ultrasound offers a non-invasive, accessible alternative, and when combined with ML, can significantly enhance diagnostic accuracy. 
 
-## Usage
+## ⚙️ Usage
 
-The source code in this repository enables two things, 1. full reproduction of our study findings, including data preprocessing, model training, and evaluation. 2. to apply trained models directly to new patient data for predictive inference. This repo also serves as the platform to share our methodology with details described in a paper that is currently being reviewed in a journal. Futher reference will be updated once the paper is published.
+This repository serves two primary purposes:
 
-## 1. archive code for model development
+1. **Reproduce Study Findings**: The source code enables full replication of our published methodology
+2. **Apply Trained Models**: Pretrained models can be directly used for predictive inference on new patient data.
 
-Please see the folder xx for Python scripts.
+Additionally, this repository provides a platform to share our approach in detail, as described in a manuscript currently under peer review. Reference information will be updated upon publication.
 
-## 2. predictive inference
+## 1️⃣ Archive Code for Model Development
 
-Please follow the following instructions to use our trained model directly for your data.
+The folder xx contains Python scripts used for model development, including data preprocessing, model training, and evaluation. These scripts allow full reproduction of the study’s methodology and results. 
 
-### Prerequisites
+Please note: the raw data used in this study is not publicly available due to institutional restrictions. For access, please contact the corresponding author.
+
+## 2️⃣ Predictive Inference
+
+You can use our trained models directly to predict cervical lymph node metastasis in new ESCC patient data. Follow the steps below to get started.
+
+### 🧰 Prerequisites
 Before you begin, ensure you have the following installed:
 
 -Python 3.8 or above
@@ -36,45 +43,41 @@ pip install lightgbm
 pip install joblib
 ```
 
-### Getting Started
+### 🚀 Getting Started
 
 1. Clone the repository or download the Jupyter Notebook `Tutorial.ipynb` and the pre-trained models.
 2. Launch Jupyter Notebook by running the following command in your terminal:
-
 ```bash
 jupyter notebook
 ```
+3. Open `Tutorial.ipynb` from the directory.
 
-3. Navigate to the directory containing the downloaded notebook and open it.
+### 📓 Notebook Structure
 
-### Notebook Structure
+1. **Import Packages**: Load all required libraries.
 
-The notebook is structured as follows:
+2. **Data Input**: Enter patient data including age, sex, tumor size, and ultrasound findings. Select a pre-trained model.
 
-1. **Import**: Import all required packages.
+3. **Preprocessing**: Automatically format input data for model compatibility.
 
-2. **Data Input**: A section for inputting user data. Please enter all required clinical features, such as age, sex, tumor size, and ultrasound findings, into the proper fields. You may also select from different pre-trained machine learning models.
+4. **Model Loading**: Load the selected pre-trained ML model.
 
-3. **Data Preprocessing**: To automatically preprocess the above user inputs to the standard data format recognized by the model
+5. **Risk Prediction**: Generate and display the predicted risk of cervical lymph node metastasis.
 
-4. **Model Loading**: Code to load the pre-trained machine learning model.
+### 🧪 Using the Notebook
 
-5. **Risk Prediction**: The notebook will use the input data to predict the risk of developing thyroid nodules and display the result.
-
-### Using the Notebook
-
-Follow the instructions within the notebook to input the required data. Each cell can be executed by selecting it and pressing `Shift + Enter`. Ensure that you run the cells in the order they appear.
+Follow the step-by-step instructions in the notebook. Run each cell sequentially using `Shift + Enter`. Ensure all cells are executed in order for accurate results.
 
 
-## Data Privacy
+## 🔐 Data Privacy
 
-Our model does not require any PHI to function. Please note that any patient data should be handled in accordance with relevant data privacy regulations. Do not share personal health information in public repositories or forums.
+Our model does not require any personally identifiable health information (PHI) to function. However, users are responsible for ensuring that all patient data is handled in compliance with applicable data privacy regulations. **Do not upload or share PHI in public repositories or forums.**
 
-## Support
+## 🤝 Support & Contributions
 
-We are actively developing an automated pipeline to streamline the entire workflow—from data input to prediction output. Contributions are warmly welcomed to enhance its easy-to-use, functionality, robustness, and clinical integration.
+We are actively developing an automated pipeline to streamline the entire workflow—from data input to prediction output. Contributions are highly encouraged to improve usability, functionality, robustness, and clinical integration.
 
-Feel free to fork the repository, submit pull requests, or open issues to share your ideas and help advance this tool for precision oncology.
+Feel free to fork the repository, submit pull requests, or open issues to share your ideas. Together, we can advance this tool to support precision oncology and improve patient care.
 
-For any issues or questions regarding the project, please contact the repository maintainer.
+For questions or technical support, please contact the repository maintainer.
 
