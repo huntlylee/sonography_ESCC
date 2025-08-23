@@ -45,12 +45,12 @@ pip install joblib
 
 ### 🚀 Getting Started
 
-1. Clone the repository or download the Jupyter Notebook `Tutorial.ipynb` and the pre-trained models.
+1. Clone the repository or download the Jupyter Notebook `ECSS_ultrasound.ipynb` and the pre-trained models.
 2. Launch Jupyter Notebook by running the following command in your terminal:
 ```bash
 jupyter notebook
 ```
-3. Open `Tutorial.ipynb` from the directory.
+3. Open `ECSS_ultrasound.ipynb` from the directory.
 
 ### 📓 Notebook Structure
 
