@@ -19,7 +19,7 @@ Additionally, this repository provides a platform to share our approach in detai
 
 ## 1️⃣ Archive Code for Model Development
 
-The folder xx contains Python scripts used for model development, including data preprocessing, model training, and evaluation. These scripts allow full reproduction of the study’s methodology and results. 
+The folder `Archive Code` contains Python scripts used for model development, including data preprocessing, model training, and evaluation. These scripts allow full reproduction of the study’s methodology and results. 
 
 Please note: the raw data used in this study is not publicly available due to institutional restrictions. For access, please contact the corresponding author.
 
@@ -30,9 +30,9 @@ You can use our trained models directly to predict cervical lymph node metastasi
 ### 🧰 Prerequisites
 Before you begin, ensure you have the following installed:
 
--Python 3.8 or above
--Jupyter Notebook
--Required Python libraries: pandas, numpy, scikit-learn, matplotlib, xgboost, lightgbm, joblib
+- Python 3.8 or above
+- Jupyter Notebook
+- Required Python libraries: pandas, numpy, scikit-learn, matplotlib, xgboost, lightgbm, joblib
 
 You can install the required libraries using the following command:
 
