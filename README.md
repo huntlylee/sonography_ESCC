@@ -3,7 +3,7 @@
 ## 📌 Overview
 This repository presents a machine learning (ML) framework developed to assess the risk of cervical lymph node metastasis in patients with **esophageal squamous cell carcinoma (ESCC)** using preoperative ultrasound and clinical information. The model aims to support personalized treatment planning and reduce unnecessary lymph node dissections. 
 
-![Figure 1](main/Figure%201.jpg)
+![Figure 1](/main/Figure%201.jpg)
 
 ## 🧬 Background
 Cervical lymph node dissection in ESCC remains controversial due to its associated risks and uncertain survival benefits. Traditional imaging modalities like PET/CT are costly and often ineffective for occult metastasis. Ultrasound offers a non-invasive, accessible alternative, and when combined with ML, can significantly enhance diagnostic accuracy. 
