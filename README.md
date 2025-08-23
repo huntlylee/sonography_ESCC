@@ -32,12 +32,12 @@ Before you begin, ensure you have the following installed:
 
 - Python 3.8 or above
 - Jupyter Notebook
-- Required Python libraries: pandas, numpy, scikit-learn, matplotlib, xgboost, lightgbm, joblib
+- Required Python libraries: pandas, numpy, scikit-learn, xgboost, lightgbm, joblib
 
 You can install the required libraries using the following command:
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib
+pip install pandas numpy scikit-learn
 pip install xgboost
 pip install lightgbm
 pip install joblib
